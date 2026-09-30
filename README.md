@@ -18,3 +18,5 @@ GIT COMMANDS
 4. Push
    = git push origin main
    = git push origin <branch>
+
+5. Everything needs to be done in order.
