@@ -45,9 +45,11 @@ const actualNumber = Number(value); //Typecasting from string to number variable
 
 console.log(typeof actualNumber); //12
 
+//Convert no to string
+
 const Bu = 12;
 
 console.log(typeof Bu); //number
 
 const n = String(Bu);
-console.log(n);
+console.log(n, Bu); //seeing both of them together
