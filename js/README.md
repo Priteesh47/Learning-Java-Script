@@ -1,3 +1,11 @@
+// Three variables are used to declare variables in JavaScript: var, let, and
+const.In one container only one value can be stored. If you want to store
+multiple values, you can use. //GIT HUB IS THE MOST.IN MONGO DB COMPASS IS USED
+TO SEE THE DATA STORED IN MONGO DB//POSTMAN IS USED TO COMMUNICATE WITH BACKEND
+in browser we use the html file. //HTML DEsign and java is the action users data
+is collectd in the JS. //HTML PRINT IS SHOWN IN BROWSER WHILE JS PRINT IS
+DISPLAYED IN INSPECT CONSOLE SECTION.
+
 # DATA TYPES
 
 string: let color = "Yellow";
