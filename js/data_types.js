@@ -15,41 +15,50 @@ String, NUmber, Null, Boolean, undefined
 
 Complex Data Types:
 
-Object: (Object,Array, Date)
-*/
+// Object: (Object,Array, Date)
+// */
 
-const string = "Priteesh is a good boy"; //String"; Character, Words and more
+// const string = "Priteesh is a good boy"; //String"; Character, Words and more
 
-const pi = 3.14; //Number
+// const pi = 3.14; //Number
 
-//const largeNumber = BigInt(3.14); //BigInt Typecasting from integer to big int
-let x; //undefined variable cannot be used as the const use the variable let
-console.log(x);
-//console.log(largeNumber);
+// //const largeNumber = BigInt(3.14); //BigInt Typecasting from integer to big int
+// let x; //undefined variable cannot be used as the const use the variable let
+// console.log(x);
+// //console.log(largeNumber);
 
-const d = null;
-console.log(d); //null
+// const d = null;
+// console.log(d); //null
 
-const is_male = true;
-console.log(is_male); //boolean
+// const is_male = true;
+// console.log(is_male); //boolean
 
-//Type conversion or Type cohersion
+// //Type conversion or Type cohersion
 
-const value = "12";
+// const value = "12";
 
-// console.log(typeof value); // use this to see the datatype
+// // console.log(typeof value); // use this to see the datatype
 
-console.log(typeof value);
+// console.log(typeof value);
 
-const actualNumber = Number(value); //Typecasting from string to number variables
+// const actualNumber = Number(value); //Typecasting from string to number variables
 
-console.log(typeof actualNumber); //12
+// console.log(typeof actualNumber); //12
 
-//Convert no to string
+// //Convert no to string
 
-const Bu = 12;
+// const Bu = 12;
 
-console.log(typeof Bu); //number
+// console.log(typeof Bu); //number
 
-const n = String(Bu);
-console.log(n, Bu); //seeing both of them together
+// const n = String(Bu);
+// console.log(n, Bu); //seeing both of them together
+
+//Write the program that divides two numbers asking user for two no inputs.
+
+const a = Number(prompt("Enter the first number"));
+console.log(typeof a);
+const b = Number(prompt("Enter the second number"));
+const result = a / b;
+
+alert(`The result of the division between ${a} and ${b} is ${result}`);
